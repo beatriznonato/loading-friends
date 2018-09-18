@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    font-family:'Gloria Hallelujah', cursive;
+}
+
+
+.letra{
+    letter-spacing: 30px;
+    font-family:'Gloria Hallelujah', cursive;
+    color: white;
+    width: 60px;
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.bolinhas{
+    font-family:'Gloria Hallelujah', cursive;
+    width: 50vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.loading{
+    height: 6px;
+    width: 6px;
+    animation: 4s crescer linear infinite;
+    border-radius: 50%;
+}
+
+.loading:nth-child(2){
+    animation-delay: 0s;
+    background-color: red;
+}
+
+.loading:nth-child(4){
+    animation-delay: 0.4s;
+    background-color: yellow;
+}
+
+.loading:nth-child(6){
+    animation-delay: 0.8s;
+    background-color: rgb(44, 142, 207);
+}
+
+.loading:nth-child(8){
+    animation-delay: 1.2s;
+    background-color: red;
+}
+
+.loading:nth-child(10){
+    animation-delay: 1.6s;
+    background-color: yellow;
+}
+
+.loading:nth-child(12){
+    animation-delay: 2s;
+    background-color: rgb(44, 142, 207);
+}
+
+
+@keyframes crescer {
+    0%{
+        transform: scale(1);
+    }
+    15%{
+        transform: scale(3);
+    }
+    30%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*div{
+    height: 200px;
+    widows: 200px;
+    background-color: blue;
+    animation: 5s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-name: animar;
+    /*transition: 5s background-color, 3s widht, 2s 3s height; só pode ter uma propriedade de TRANSITION, mas pode conter vários valores separados por virgula.
+    transition-duration: 2s;
+    transition-delay: 1s;
+    transition-property: background-color; define uma propriedade especifica;
+}
+
+ @keyframes animar { 
+    0%{
+        background-color: darkblue
+transform: rotate(0deg);
+    }
+    25%{
+    transform: translateY(-300px);
+    }
+    75%{
+        transform: translateY(300px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+ } /*
+
+ 
